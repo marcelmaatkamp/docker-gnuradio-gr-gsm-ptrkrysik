@@ -14,4 +14,5 @@ RUN git clone https://github.com/pybombs/pybombs.git
 WORKDIR pybombs
 
 RUN printf "\n\n/usr/local\n\n\n\n\n\n\n\n\n\n" | ./pybombs config forcebuild ' '
+ADD airprobe_rtlsdr_nogui.py /usr/local/bin/airprobe_rtlsdr_nogui.py
 RUN ./pybombs install gr-gsm
