@@ -23,5 +23,5 @@ If you tune it right the terminal will display a flood of GSM messages:
 
 I made a nogui version which will output the gsm stream:
 ```
- root@gnuradio-gr-gsm-ptrkrys# airprobe_rtlsdr_nogui.py -p 50 -g 50 -f 9.462e+08
+ root@gnuradio-gr-gsm-ptrkrys# # airprobe_rtlsdr_nogui.py -p 55 -g 48 -f 9.462e+08
 ```
