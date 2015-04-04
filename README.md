@@ -25,3 +25,5 @@ I made a nogui version which will output the gsm stream:
 ```
  root@gnuradio-gr-gsm-ptrkrys# # airprobe_rtlsdr_nogui.py -p 55 -g 48 -f 9.462e+08
 ```
+
+You can now open Wireshark and inspect the GSM messages on port 4729/udp
