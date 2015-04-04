@@ -19,3 +19,5 @@ ADD airprobe_rtlsdr_nogui.py /usr/local/bin/airprobe_rtlsdr_nogui.py
 EXPOSE 4729/udp
 
 RUN ./pybombs install gr-gsm
+
+#  ["airprobe_rtlsdr_nogui.py", "-p", "70", "-g", "50", "-f", "9.462e+08"]
