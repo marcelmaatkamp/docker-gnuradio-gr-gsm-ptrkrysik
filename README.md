@@ -2,7 +2,7 @@
 
 Start the image with extra privileges to access the rtlsdr dongle and expose a ssh-port: 
 ```
- $ docker run -ti --privileged -p 2224:22 marcelmaatkamp/gnuradio-gr-gsm-ptrkrys:latest
+ $ docker run -ti --privileged -p 2224:22 4729:4729/udp marcelmaatkamp/gnuradio-gr-gsm-ptrkrys:latest
  
  root@gnuradio-gr-gsm-ptrkrys# /usr/sbin/sshd
 ```
