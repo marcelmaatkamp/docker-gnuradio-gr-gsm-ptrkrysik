@@ -13,6 +13,7 @@ In another terminal ssh into the box with X-forwarding enabled:
   $ ssh -X -p 2224 root@dockerhost
   
   root@gnuradio-gr-gsm-ptrkrys# locale-gen en_US en_US.UTF-8
+  root@gnuradio-gr-gsm-ptrkrys# export LC_ALL="en_US.UTF-8"
   root@gnuradio-gr-gsm-ptrkrys# airprobe_rtlsdr.py
 ```
 
