@@ -1,5 +1,9 @@
 # docker-gnuradio-gr-gsm-ptrkrysik
 
+This is a repo with the sources from https://github.com/ptrkrysik/gr-gsm in a docker to easily decode GSM with a rtlsdr dongle.
+
+# HOWTO 
+
 Start the image with extra privileges to access the rtlsdr dongle and expose a ssh-port: 
 ```
  $ docker run -ti --privileged -p 2224:22 -p 4729:4729/udp marcelmaatkamp/gnuradio-gr-gsm-ptrkrys:latest
